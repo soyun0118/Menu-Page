@@ -50,6 +50,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  display: none;
 }
 
 .menu-btn span {
@@ -156,6 +157,10 @@ main h1 {
 	main h1 {
     font-size: 1.5rem;
   }
+
+  .menu-btn {
+    display: flex;
+  }
   
   #main-header nav a {
     display: none;
@@ -164,10 +169,4 @@ main h1 {
   #latest-products ul {
 		grid-template-columns: 100%;
 	}
-}
-
-@media (min-width: 48rem) {
-  .menu-btn {
-    display: none;
-  }
 }
